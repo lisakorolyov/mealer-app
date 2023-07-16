@@ -16,6 +16,9 @@ public class Complaint implements Serializable {
         this.actioned = false;
     }
 
+    public Complaint(String hello, String name) {
+    }
+
 
     public void setSuspensionDate(String severity) {this.suspensionDate = severity;}
 
